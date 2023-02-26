@@ -36,4 +36,4 @@ print("wk"*10)
 print(10*"wk")
 
 # idexing
-print("index ke-0: ", nama_lengkap[0])
+print("index ke-0: ", nama_lengkap[0:7:2])
