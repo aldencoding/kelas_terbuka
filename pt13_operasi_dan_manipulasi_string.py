@@ -37,3 +37,19 @@ print(10*"wk")
 
 # idexing
 print("index ke-0: ", nama_lengkap[0:7:2])
+
+#item paling kecil
+print("paling kecil" + min(nama_lengkap))
+
+#item paling besar
+print("paling kecil" + max(nama_lengkap))
+
+ascii_code = ord(" ")
+print("ASCII_code untuk spasi adalah " + str(ascii_code))
+data = 117
+print("char untuk ASCII 117 adalah " + chr(data))
+
+# 4. Operator dalam bentuk method
+data = "ular melingkar diatas pagar"
+jumlah = data.count("r")
+print("jumlah huruf r " + str(jumlah))
