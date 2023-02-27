@@ -53,3 +53,50 @@ print("char untuk ASCII 117 adalah " + chr(data))
 data = "ular melingkar diatas pagar"
 jumlah = data.count("r")
 print("jumlah huruf r " + str(jumlah))
+
+#========================================
+
+print(10*"=" + "Part 2" + "="*10)
+
+# Operator dalam bentuk methods
+
+## merubah case dari string
+
+# merubah semua ke upper
+salam = "bro!"
+print("Normal = " + salam)
+upper = salam.upper()
+print("upper = " + upper)
+
+# merubah semua ke lower case
+salam = "bro!"
+print("Normal = " + salam)
+lower = salam.lower()
+print("upper = " + lower)
+
+# pengecekan isX method
+
+# contoh pengecekan lower case
+salam = "sist"
+apakah_lower = salam.islower()
+print(salam + " is lower? = " + str(apakah_lower))
+# contoh pengecekan upper case
+apakah_upper = salam.isupper()
+print(salam + " is upper? = " + str(apakah_upper))
+
+# isalpha() <-- untuk mengecek apakah semua huruf
+# isalnum() <-- untuk mengecek huruf dan angka
+# isdecimal() <-- untuk mengecek apakah angka saja
+# isspace() <-- spasi,tab, newline \n
+# istitle() <-- semua kata dimulai dengan huruf besar
+
+judul = "Tanam Tanam Ubi Tak Perlu Dibajak"
+cek_judul = judul.istitle()
+print(judul + " is title? =" + str(cek_judul))
+
+# ngecek komponen startswith () endswith()
+cek_start = "Halo apa kabar".startswith("Halo")
+print("start = " + str(cek_start))
+
+cek_end = "Halo apa kabar".endswith("kabar")
+print("end = " + str(cek_end))
