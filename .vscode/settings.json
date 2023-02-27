@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 18,
+    "editor.minimap.renderCharacters": true,
+    "editor.cursorBlinking": "blink",
+    "workbench.list.defaultFindMode": "highlight",
+    "workbench.editor.labelFormat": "default",
+    
+
+}
