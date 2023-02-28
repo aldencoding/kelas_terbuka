@@ -100,3 +100,27 @@ print("start = " + str(cek_start))
 
 cek_end = "Halo apa kabar".endswith("kabar")
 print("end = " + str(cek_end))
+
+# penggabungan komponen join() split()
+# - data akan berubah menjadi str
+# ([]) ini adalah list
+pisah = ['aku','liat','die']
+gabung = ' '.join(pisah)
+print(gabung , type(pisah))
+
+pisah = ' - '.join(pisah)
+print(pisah , type(pisah))
+
+pisah = "aku masuk liat masuk die"
+print(pisah.split('-'), type(pisah))
+
+## alokasi karakter rjust(), ljust() center()
+
+kanan = 'kanan'.rjust(10)
+print('\'', kanan ,'\'')
+
+kiri = 'kiri'.ljust(10)
+print('\'', kiri ,'\'')
+
+tengah = 'tengah'.center(10,'-')
+print('\'', tengah ,'\'')
